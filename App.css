@@ -4,6 +4,28 @@
   --yellow: #f0ff00;
 
   --blue-trans: #3333ffad;
+  --red-trans: #9f212154;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2F26d947fb-61f5-4f5a-953f-64f52fb24301%2Fdh366zb-d91f2a78-aea4-4e99-8404-c50140784fb6.jpg%2Fv1%2Ffill%2Fw_1280%2Ch_718%2Cq_75%2Cstrp%2Fthe_amazing_digital_circus_background_2_by_legobuilder100_dh366zb-fullview.jpg%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE4IiwicGF0aCI6IlwvZlwvMjZkOTQ3ZmItNjFmNS00ZjVhLTk1M2YtNjRmNTJmYjI0MzAxXC9kaDM2NnpiLWQ5MWYyYTc4LWFlYTQtNGU5OS04NDA0LWM1MDE0MDc4NGZiNi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MW2DJ4VcfKIOuZq4nXL_TZ-dE4xVVSa0n6t0R9yvMLA&f=1&nofb=1&ipt=32c4dbce3034a607d7e7646877180fa4202f9bf76ebaea4e0a3881559f0a331e");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/tadc_circus_bg.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  background: linear-gradient(to top, #ff3c00, #ffb700);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  text-shadow: 0px 0px 12px #ffb700;
+
+  padding: 1em;
+}
+h2, h3, h4, p{
+  color: var(--yellow);
 }
 
 nav{
@@ -20,11 +42,11 @@ a {
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
   padding: 1em;
 
   text-decoration: none;
-  color: aliceblue;
+  color: var(--yellow);;
 
   transition: 0.4s ease;
 }
@@ -33,6 +55,7 @@ a:hover{
 }
 
 
+/* App.jsx */
 .posts{
   margin: 0 3em 0 3em;
 }
@@ -52,10 +75,13 @@ a:hover{
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
 
   padding: 0em 1em 0.6em 1em;
   margin-bottom: 2em;
+
+  background-color: var(--red-trans);
+  color: var(--yellow);
 }
 
 .posts div .title{
@@ -64,10 +90,12 @@ a:hover{
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
 
   padding: 1em;
   margin: 1em 0 0 0;
+
+  color: var(--yellow);
 }
 .posts div .time{
   grid-area: time;
@@ -75,7 +103,7 @@ a:hover{
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
 
   align-content: center;
 
@@ -89,7 +117,7 @@ a:hover{
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
 
   padding: 1em;
   margin: 1em 0 0 0;
@@ -142,7 +170,7 @@ a:hover{
   border-radius: 8px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: aliceblue;
+  border-color: var(--yellow);;
 
   /* padding: 1em; */
   margin: 1em 3em 1em 3em;
