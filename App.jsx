@@ -37,7 +37,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>THE AMAZING DIGITAL FORUM</h1>
+        <img id="tadc-title" src="src/assets/tadc_title.png"></img>
+        <h1>F O R U M</h1>
+        {/* <h1>THE AMAZING DIGITAL FORUM</h1> */}
 
         <div className="filter-btns">
           <button className="upvote-search-btn rainbow" onClick={filterPostsByUpvotes}>Sort by Upvotes</button>

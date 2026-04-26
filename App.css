@@ -17,14 +17,31 @@ body{
   background-size: cover;
 }
 h1{
-  background: linear-gradient(to top, #ff3c00, #ffb700);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #ffff00;
+  font-size: 70px;
 
   text-shadow: 0px 0px 12px #ffb700;
 
-  padding: 1em;
+  padding-bottom: 1em;
+
+  animation: scale 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes scale{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.2);
+  }
+}
+@keyframes zoom{
+  from{
+    transform: scale(0.8);
+  }
+  to{
+    transform: scale(1);
+  }
 }
 h2, h3, h4, p{
   color: var(--yellow);
@@ -56,6 +73,12 @@ a:hover{
   background-color: #2121c8cd;
 }
 
+#tadc-title{
+  max-width: 60%;
+  margin: 1em 3em 1em 3em;
+
+  animation: zoom 1s ease-in-out;
+}
 
 /* App.jsx */
 .posts{
@@ -328,6 +351,7 @@ a:hover{
 
 .upvote-search-btn:hover{
   background-color: #ff8400bf;
+  cursor: pointer;
 }
 #search{
   border-style: solid;
