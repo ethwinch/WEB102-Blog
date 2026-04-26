@@ -69,13 +69,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a src="https://drive.google.com/file/d/1L4nmwZOk1QfKTCt0L_rMRnPhlEZXsSuQ/view?usp=sharing">Filter and View Posts</a>
+<a href="https://drive.google.com/file/d/1L4nmwZOk1QfKTCt0L_rMRnPhlEZXsSuQ/view?usp=sharing">Filter and View Posts</a>
 <br />
-<a src="https://drive.google.com/file/d/1n25ea5zWLRkB3DvAzIBHLtyCEuFOdEzT/view?usp=sharing">Leave and View Comments</a>
+<a href="https://drive.google.com/file/d/1n25ea5zWLRkB3DvAzIBHLtyCEuFOdEzT/view?usp=sharing">Leave and View Comments</a>
 <br />
-<a src="https://drive.google.com/file/d/1__Eee13ZQaYvoroCTh59d32hVrUHKF4o/view?usp=sharing">Edit Post</a>
+<a href="https://drive.google.com/file/d/1__Eee13ZQaYvoroCTh59d32hVrUHKF4o/view?usp=sharing">Edit Post</a>
 <br />
-<a src="https://drive.google.com/file/d/1tepbdPW4FIXSI2F5RWW6mAsMY5rkTvWq/view?usp=sharing">Delete Posts</a>
+<a href="https://drive.google.com/file/d/1tepbdPW4FIXSI2F5RWW6mAsMY5rkTvWq/view?usp=sharing">Delete Posts</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezGif
