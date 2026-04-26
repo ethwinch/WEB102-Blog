@@ -7,12 +7,30 @@ import supabase from "./client.js"
 function App() {
   const [posts, setPosts] = useState([]);
 
+  const [search, setSearch] = useState("");
+  const [allPosts, setAllPosts] = useState([]);
+
   useEffect(() => {
     getPosts();
   }, []);
 
+  // Filter by Post Title
+  useEffect(() => {
+    const filtered = allPosts.filter(post =>
+      post.title.toLowerCase().includes(search.toLowerCase())
+    );
+    setPosts(filtered);
+  }, [search]);
+
   async function getPosts() {
     const {data} = await supabase.from("post").select();
+    setPosts(data);
+    setAllPosts(data);
+  }
+
+  // Filter posts by upvotes
+  async function filterPostsByUpvotes() {
+    const { data } = await supabase.from("post").select().order("upvotes", { ascending: false });
     setPosts(data);
   }
 
@@ -20,6 +38,12 @@ function App() {
     <>
       <div>
         <h1>THE AMAZING DIGITAL FORUM</h1>
+
+        <div className="filter-btns">
+          <button className="upvote-search-btn rainbow" onClick={filterPostsByUpvotes}>Sort by Upvotes</button>
+          <input type="text" id="search" name="search" placeholder="⌕ Search posts by title..." value={search} onChange={((e) => setSearch(e.target.value))}></input>
+        </div>
+
         <div className="posts">
           {posts.map((post) => (
             <div className="post" key={post.id}>
