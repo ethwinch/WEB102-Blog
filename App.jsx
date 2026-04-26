@@ -38,7 +38,7 @@ function App() {
     <>
       <div>
         <img id="tadc-title" src="src/assets/tadc_title.png"></img>
-        <h1>F O R U M</h1>
+        <h1 className="splash-text">F O R U M</h1>
         {/* <h1>THE AMAZING DIGITAL FORUM</h1> */}
 
         <div className="filter-btns">
