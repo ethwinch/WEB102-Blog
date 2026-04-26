@@ -76,6 +76,8 @@ Here's a walkthrough of implemented user stories:
 <a href="https://drive.google.com/file/d/1__Eee13ZQaYvoroCTh59d32hVrUHKF4o/view?usp=sharing">Edit Post</a>
 <br />
 <a href="https://drive.google.com/file/d/1tepbdPW4FIXSI2F5RWW6mAsMY5rkTvWq/view?usp=sharing">Delete Posts</a>
+<br />
+<a href="https://drive.google.com/file/d/13eUsXVqvfWwf4EpqvKya5YX4KB9kzurs/view?usp=sharing">Create Post</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezGif
