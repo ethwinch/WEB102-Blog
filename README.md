@@ -69,15 +69,20 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://drive.google.com/file/d/1L4nmwZOk1QfKTCt0L_rMRnPhlEZXsSuQ/view?usp=sharing">Filter and View Posts</a>
+<h3>Filter and View Posts</h3>
+<img src="./Walkthrough_Files/TADCFORUM_Filter_View_Posts.gif" style="width: 100%;" />
 <br />
-<a href="https://drive.google.com/file/d/1n25ea5zWLRkB3DvAzIBHLtyCEuFOdEzT/view?usp=sharing">Leave and View Comments</a>
+<h3>Leave and View Comments</h3>
+<img src="./Walkthrough_Files/TADCFORUM_Leave_View_Comments.gif" style="width: 100%;" />
 <br />
-<a href="https://drive.google.com/file/d/1__Eee13ZQaYvoroCTh59d32hVrUHKF4o/view?usp=sharing">Edit Post</a>
+<h3>Edit Post</h3>
+<img src="./Walkthrough_Files/TADCFORUM_Edit_Post.gif" style="width: 100%;" />
 <br />
-<a href="https://drive.google.com/file/d/1tepbdPW4FIXSI2F5RWW6mAsMY5rkTvWq/view?usp=sharing">Delete Posts</a>
+<h3>Delete Posts</h3>
+<img src="./Walkthrough_Files/TADCFORUM_Delete_Post.gif" style="width: 100%;" />
 <br />
-<a href="https://drive.google.com/file/d/13eUsXVqvfWwf4EpqvKya5YX4KB9kzurs/view?usp=sharing">Create Post</a>
+<h3>Create Post</h3>
+<img src="./Walkthrough_Files/TADCFORUM_Create_Post.gif" style="width: 100%;" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezGif
