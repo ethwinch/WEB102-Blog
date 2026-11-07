@@ -79,10 +79,10 @@ Here's a walkthrough of implemented user stories:
 <img src="./Walkthrough_Files/TADCFORUM_Edit_Post.gif" style="width: 100%;" />
 <br />
 <h3>Delete Posts</h3>
-<img src="./Walkthrough_Files/TADCFORUM_Delete_Post.gif" style="width: 100%;" />
+<img src="./Walkthrough_Files/TADCFORUM_Delete_Posts.gif" style="width: 100%;" />
 <br />
 <h3>Create Post</h3>
-<img src="./Walkthrough_Files/TADCFORUM_Create_Post.gif" style="width: 100%;" />
+<img src="./Walkthrough_Files/TADCFORUM_Create_Posts.gif" style="width: 100%;" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezGif
